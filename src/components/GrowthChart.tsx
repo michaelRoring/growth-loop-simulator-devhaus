@@ -62,8 +62,8 @@ const GrowthChart: React.FC<GrowthChartProps> = ({ data, type }) => {
             {
               dataKey: "revenue",
               name: "Revenue",
-              stroke: "#715AFF",
-              fill: "#8D7BFF",
+              stroke: "#99AFFF",
+              fill: "#6688FF",
 
               fillOpacity: 0.6,
               strokeWidth: 2,
@@ -71,8 +71,8 @@ const GrowthChart: React.FC<GrowthChartProps> = ({ data, type }) => {
             {
               dataKey: "profit",
               name: "Profit",
-              stroke: "#C2008C",
-              fill: "#E60EA9",
+              stroke: "#0A00CC",
+              fill: "#0D00FF",
               fillOpacity: 0.6,
               strokeWidth: 2,
             },
@@ -85,8 +85,8 @@ const GrowthChart: React.FC<GrowthChartProps> = ({ data, type }) => {
             {
               dataKey: "customers",
               name: "Customers",
-              stroke: "#715AFF",
-              fill: "#8D7BFF",
+              stroke: "#0A00CC",
+              fill: "#0D00FF",
               fillOpacity: 0.6,
               strokeWidth: 2,
             },
@@ -99,8 +99,8 @@ const GrowthChart: React.FC<GrowthChartProps> = ({ data, type }) => {
             {
               dataKey: "budget",
               name: "Marketing Budget",
-              stroke: "#715AFF",
-              fill: "#8D7BFF",
+              stroke: "#0A00CC",
+              fill: "#0D00FF",
               fillOpacity: 0.6,
               strokeWidth: 2,
             },

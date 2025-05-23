@@ -18,6 +18,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { Download, RefreshCcw, Share } from "lucide-react";
 import { ToastContainer, toast } from "react-toastify";
+import SprklabsLogo from "../../public/SprklabsLogo";
 
 const Index = () => {
   const defaultParams: SimulationParams = {
@@ -104,11 +105,11 @@ const Index = () => {
   return (
     <div className="container mx-auto px-4 py-8 max-w-6xl">
       <div className="mb-12 text-center">
-        <h1 className="font-neue-machina-inktrap  text-3xl font-bold mb-2">
+        <h1 className="  text-3xl font-bold mb-2">
           E-Commerce Paid Growth Loop Simulator
         </h1>
 
-        <p className="font-neue-machina-plain text-gray-600">
+        <p className=" text-gray-600">
           Visualize how reinvesting revenue into customer acquisition creates
           compounded growth over time
         </p>
@@ -405,17 +406,12 @@ const Index = () => {
 
       <footer className="mt-12 text-center text-sm text-gray-500">
         <p>
-          <span className="font-semibold">Sprklabs</span> © 2025
+          <span className="font-semibold">Devhaus</span> © 2025
         </p>
         <div className="flex gap-2 items-center justify-center">
           <p className="mt-1">In partnership with </p>
-          <a href="https://devhaus.com.sg" target="_blank" rel="noreferrer">
-            <img
-              src="https://content.partnerpage.io/eyJidWNrZXQiOiJwYXJ0bmVycGFnZS5wcm9kIiwia2V5IjoibWVkaWEvY29udGFjdF9pbWFnZXMvZmY2MmIwYmQtZTRkMS00MzZmLWExOWMtMWVlYzEzNmEzMDgzLzk0ZjZkMzQ1LTAzNGMtNDVmMi04MmJlLTZkMTI1ZGI2ZTI1My5wbmciLCJlZGl0cyI6eyJ0b0Zvcm1hdCI6IndlYnAiLCJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6NjI3LCJmaXQiOiJjb250YWluIiwiYmFja2dyb3VuZCI6eyJyIjoyNTUsImciOjI1NSwiYiI6MjU1LCJhbHBoYSI6MH19fX0="
-              alt="Devhaus logo"
-              width={100}
-              height={10}
-            />
+          <a href="https://www.sprklabs.io/" target="_blank" rel="noreferrer">
+            <SprklabsLogo />
           </a>
         </div>
       </footer>
